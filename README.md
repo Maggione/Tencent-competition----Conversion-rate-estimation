@@ -7,10 +7,11 @@
 由于转化需要一定时间，训练集最后几天的数据的标签可能不准确，但是测试集的标签是准确的。
 这里提供的数据是缩减版，真实数据集大小是：train.csv（37912917）  test.csv（3321749）
 ## 代码说明
-特征提取
-> cd pre_script<br>
-> sh pre.sh<br>
-模型训练
+特征提取<br>
+> cd pre_script <br>
+> sh pre.sh <br>
+
+模型训练<br>
 > python lgb.28-29.py
 ## 实验流程
 ### 数据清洗
